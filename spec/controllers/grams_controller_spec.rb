@@ -19,7 +19,7 @@ RSpec.describe GramsController, type: :controller do
   describe "grams#create action" do
     it "should successfully create a new gram in out database" do
       post :create, params: { gram: { message: 'Hello' }}
-      expect(respons).to redirect_to root_path
+      expect(response).to redirect_to root_path
 
       gram = Gram.last
       expect(gram.message).to eq("Hello")
@@ -27,5 +27,5 @@ RSpec.describe GramsController, type: :controller do
   end
 
 
-  
+
 end
