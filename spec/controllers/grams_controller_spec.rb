@@ -59,6 +59,7 @@ RSpec.describe GramsController, type: :controller do
       )
       sign_in user
 
+      gram_count = Gram.count
       post :create, params: { gram: { message: '' } }
       expect(response).to have_http_status(:unprocessable_entity)
       expect(gram.count).to eq Gram.count
