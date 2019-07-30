@@ -34,7 +34,7 @@ RSpec.describe GramsController, type: :controller do
       post :create, params: { gram: { message: "Hello" } }
       expect(response).to redirect_to new_user_session_path
     end
-    
+
     it "should successfully create a new gram in out database" do
       user = User.create(
         email:                 'fakeuser@gmail.com',
@@ -61,7 +61,7 @@ RSpec.describe GramsController, type: :controller do
 
       post :create, params: { gram: { message: '' } }
       expect(response).to have_http_status(:unprocessable_entity)
-      expect(gram.count).to eq 0
+      expect(gram.count).to eq Gram.count
     end
 
 
