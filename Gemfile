@@ -79,5 +79,5 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5'
   gem "factory_bot_rails"
 end
-
+gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
 
