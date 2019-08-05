@@ -3,6 +3,8 @@ class GramsController < ApplicationController
   
   def index
     @grams = Gram.all
+    @picture = Picture.new
+    @grams = Gram.new
   end
 
   def new
