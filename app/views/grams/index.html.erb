@@ -9,7 +9,8 @@
 
     <div class="gram-actions float-right">
       <% if current_user && current_user == gram.user %>
-        <%= link_to 'Edit', edit_grams_path(gram) %>
+      <%= link_to 'Edit', edit_grams_path(gram) %>
+      <%= link_to 'Destroy', grams_path(gram), method: :delete, data: {confirm: 'Are you sure?'} %>
       <% end %>
     </div>
     <br class="clear-fix" />
