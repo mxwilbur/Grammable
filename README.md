@@ -14,7 +14,7 @@ An Instagram clone that was built using industry-standard, test-driven developme
 - Carrierwave > 2.0 
 
 # Screenshots
-![](grammable1.gif)
+![](Grammable1.gif)
 # Bugs
 If you find any bugs and would like to report them, you can do so through GitHub issues.  Thanks for your help!
 
