@@ -1,24 +1,25 @@
-# README
+# Grammable
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An Instagram clone that was built using industry-standard, test-driven development following numerous red/green/refactor cycles.  Check it out [link](https://Grammable-mike-wilbur.herokuapp.com "here")!
 
-Things you may want to cover:
+# Usage
+- Users can scan all postings.
+- User must register to add comments and their own images.
 
-* Ruby version
+# Software
+- Ruby 2.5.3
+- Rails 5.2.3
+- Bootstrap 4.x
+- DB Postgresql
+- Carrierwave > 2.0 
 
-* System dependencies
+# Screenshots
+<img src="images/Grammable1.gif"
+    alt="Home Screen"
+    style="float: left; margin-right; 10px;"
+    width="200"/> 
+# Bugs
+If you find any bugs and would like to report them, you can do so through GitHub issues.  Thanks for your help!
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Authors
+Mike Wilbur <mxwilbur@outlook.com>
