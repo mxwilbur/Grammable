@@ -14,10 +14,7 @@ An Instagram clone that was built using industry-standard, test-driven developme
 - Carrierwave > 2.0 
 
 # Screenshots
-<img src="images/Grammable1.gif"
-    alt="Home Screen"
-    style="float: left; margin-right; 10px;"
-    width="200"/> 
+![](grammable1.gif)
 # Bugs
 If you find any bugs and would like to report them, you can do so through GitHub issues.  Thanks for your help!
 
